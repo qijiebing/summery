@@ -1,0 +1,53 @@
+node js运行时 非阻塞io 事件循环
+
+网站 接口 实时app 中间层 微服务
+
+运行 node xx.js
+
+nodemon 
+调试 vscode debug
+模块化 
+ 导出 module.exports = xx
+  导入 require（）
+
+  自带模块
+  fs
+    fs.readFile 异步  fs.readFileSyc 同步
+    fs.readFile('xxx',(err.data)=>{})
+    promisify(fs.readFile()).then //util
+
+  buffer
+    buffer。alloc(10) 新建 unsafeAlloc()
+    Buffer.from(str/ary)
+    buf.write(xx)
+    buf.toString(xxx)
+
+  http
+    http.createServer((req,res)=>{})
+  stream
+    fs.createReadStream(xx).pipe(fs.createWriteStream(xx))
+    rs.pipe(response)
+
+  global
+    定时器 module require 
+
+
+  路由概念 简版express  封装了 http.createServer
+  app.get('/',(req,res)=>{
+      //  /路径
+  })
+ app.get('/user',(req,res)=>{
+      //  /user路径
+  })
+  app.listen(300)
+
+  /////////////////////
+
+网络：
+  掌握http协议
+  掌握http的服务使用
+  掌握前后端通信技术ajax websocket
+  能解决常见的web问题 跨域 session
+  实战一个爬虫程序
+  实习聊天程序
+  了解https 
