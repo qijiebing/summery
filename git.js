@@ -29,4 +29,7 @@ git status 查看状态 工作区红色
 git rm --cached 文件名 -f 删除暂缓区文件
 
 // 提交 暂存区 - 历史区 版本库
-git commit -m"xxx"
+git commit -m "xxx"   // 可以用:q!退出编辑
+git add -am
+
+git log 看日志
