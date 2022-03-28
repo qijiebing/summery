@@ -107,3 +107,5 @@ touch ReadableStream.md
 - 在项目中创建一个这样的分支 
 - 将分支提交到线上仓库
 - 找到提供你的网址
+
+-- github上切换分支 setting github pages 生成地址
