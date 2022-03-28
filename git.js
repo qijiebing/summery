@@ -109,3 +109,11 @@ touch ReadableStream.md
 - 找到提供你的网址
 
 -- github上切换分支 setting github pages 生成地址
+
+git  clone https://xx.git myname
+
+只有fork 关系才能发 pull request 合并请求
+
+添加 collaborators 贡献者
+
+GUI 
